@@ -33,7 +33,7 @@ const EVENTS = [
     name: "Haldi",
     date: "02 Dec 2026", time: "10:00 AM",
     venue: "Lakeside Courtyard",
-    note: "Yellow / ivory tones",
+    note: "A sun-soaked morning with traditional turmeric blessings",
     map: MAP_URL
   },
 
