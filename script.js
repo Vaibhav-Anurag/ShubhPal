@@ -11,17 +11,17 @@ const EVENTS = [
     id: "mehendi",
     icon: "assets/event/pn-evt-ico-mehendi-x-v01.webp",
     name: "Mehendi",
-    date: "30 Nov 2026", time: "4:00 PM",
-    venue: "Ayodhyapuri",
-    note: "Greens & florals encouraged",
-    map: "https://maps.app.goo.gl/J7HRE8FUhpzMNUTR7",
+    date: "01 Dec 2026", time: "3:00 PM",
+    venue: "Banquet Lawns",
+    note: "henna, hues, and laughter",
+    map: MAP_URL
   },
   
   {
     id: "sangeet",
     icon: "assets/event/pn-evt-ico-sangeet-x-v01.webp",
     name: "Sangeet",
-    date: "01 Dec 2026", time: "4:00 PM",
+    date: "01 Dec 2026", time: "6:00 PM",
     venue: "Banquet Lawns",
     note: "An evening of music and performances",
     map: MAP_URL
@@ -37,33 +37,33 @@ const EVENTS = [
     map: MAP_URL
   },
 
+  {
+    id: "shaadi",
+    icon: "assets/event/pn-evt-ico-shaadi-x-v01.webp",
+    name: "Baarat Aagman",
+    date: "02 Dec 2026", time: "7:00 PM",
+    venue: "Outdoor Courtyard",
+    note: "A grand, musical welcome for the groom",
+    map: MAP_URL
+  },
+
     {
     id: "reception",
     icon: "assets/event/pn-evt-ico-reception-x-v01.webp",
-    name: "Reception",
-    date: "02 Dec 2026", time: "7:30 PM",
+    name: "Preeti Bhoj",
+    date: "02 Dec 2026", time: "7:00 PM",
     venue: "Banquet Lawns",
     note: "Candlelit dinner and celebration",
     map: MAP_URL
   },
 
   {
-    id: "shaadi",
-    icon: "assets/event/pn-evt-ico-shaadi-x-v01.webp",
-    name: "Vivaah",
-    date: "02 Dec 2026", time: "10:30 PM",
-    venue: "Mandap",
-    note: "Traditional Indian attire",
-    map: MAP_URL
-  },
-
-  {
-    id: "vidaai",
-    icon: "assets/event/pn-evt-ico-vidaai-x-v01.webp",
-    name: "Vidaai",
-    date: "03 Dec 2026", time: "9:00 AM",
-    venue: "Main Courtyard",
-    note: "A quiet farewell with blessings",
+    id: "wedding",
+    icon: "assets/event/mandap.webp",
+    name: "Shubh <br> Vivaah",
+    date: "02 Dec 2026", time: "11:00 PM",
+    venue: "Wedding Hall",
+    note: "Auspicious gathering for the pheras",
     map: MAP_URL
   }
 ];
@@ -1656,7 +1656,7 @@ const TTK_ITEMS = [
     type:        "venue",
     enabled:     true,
     title:       "Venue",
-    description: "Blessings Banquets and Resort. All celebrations take place within the resort.",
+    description: "Blessings Banquets and Resort. All celebrations will take place within the resort.",
     icon:        TTK_BASE + "pn-ttk-ico-venue-x-v01.webp",
     linkLabel:   null,
     linkUrl:     null,
@@ -1666,7 +1666,7 @@ const TTK_ITEMS = [
     type:        "stay-options",
     enabled:     true,
     title:       "Stay Options",
-    description: "A curated block of rooms has been reserved. Please book by 1st November 2026.",
+    description: "A curated block of rooms have been reserved within the resort.",
     icon:        TTK_BASE + "pn-ttk-ico-stay-options-x-v01.webp",
     linkLabel:   null, linkUrl: null, custom: false,
   },
