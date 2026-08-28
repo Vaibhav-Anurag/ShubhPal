@@ -414,7 +414,7 @@ function hydrate() {
   const heroBg = getHeroBackgrounds();
   document.getElementById("introBgDark").src    = heroBg.dark;
   document.getElementById("introBgLit").src     = heroBg.lit;
-  document.getElementById("introJhoomer").src   = A.jhoomer;
+  // document.getElementById("introJhoomer").src   = A.jhoomer;
   document.getElementById("introFloralLeft").src  = A.floralBush;
   document.getElementById("introFloralRight").src = A.floralBush;
   document.getElementById("introDiyaLeft").src  = A.diya;
@@ -2222,7 +2222,7 @@ if (document.readyState !== "loading") initRSVP();
 
   /* ── Page title ── */
   if (couple.bride && couple.groom) {
-    document.title = couple.bride + ' & ' + couple.groom + ' · ShaadiPath';
+    document.title = couple.bride + ' & ' + couple.groom;
   }
 
   /* ── Intro section names, date, venue ── */
